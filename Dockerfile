@@ -60,8 +60,8 @@ RUN set -ex; \
     apk del .build-deps; \
     rm -rf /tmp/pear /var/cache/apk/*
 # DO NOT FORGET TO CHECK THE LANGUAGE PACK DOWNLOAD URL BELOW
-ENV OSTICKET_VERSION=1.18 \
-    OSTICKET_SHA256SUM=c0c3ef4220b8709e1dbe12503294d412390e91d638e8c6d57ab8d8403c5753e1
+ENV OSTICKET_VERSION=1.18.1 \
+    OSTICKET_SHA256SUM=0802d63ed0705652d2c142b03a4bdb77a6ddec0832dfbf2748a2be38ded8ffeb
 RUN set -ex; \
     \
     wget -q -O osTicket.zip https://github.com/osTicket/osTicket/releases/download/v${OSTICKET_VERSION}/osTicket-v${OSTICKET_VERSION}.zip; \
