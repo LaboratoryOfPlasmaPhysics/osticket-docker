@@ -75,8 +75,8 @@ RUN set -ex; \
     # Remove setup
     rm -r /var/www/html/setup; \
     \
-    for lang in ar_EG ar_SA az bg bn bs ca cs da de el es_AR es_ES es_MX et eu fa fi fr gl he hi \
-        hr hu id is it ja ka km ko lt lv mk mn ms nl no pl pt_BR pt_PT ro ru sk sl sq sr sr_CS \
+    for lang in ar_EG ar_SA  de el es_AR es_ES es_MX et eu fr gl he hi \
+        id is it ja ka km ko lt lv mk mn ms nl no pl pt_BR pt_PT ro ru sk sl sq sr sr_CS \
         sv_SE sw th tr uk ur_IN ur_PK vi zh_CN zh_TW; do \
         # This URL is the same as what is used by the official osTicket Downloads page. This URL is
         # used even for minor versions >= 14.
